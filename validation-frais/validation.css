@@ -1,0 +1,289 @@
+
+
+
+body 
+{
+    background-color: #FA521C; color: black; 
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    text-align: center;
+} 
+
+.logo{
+
+    margin-left: 665px      ;
+}
+
+.titre
+{ 
+     width : 180px ;  text-align: right; 
+     font-family: 'Lato', sans-serif;
+     
+} 
+
+
+.zone 
+{ 
+     color:7091BB ;text-align: center;
+    font-family: 'Lato', sans-serif;
+} 
+
+.tout
+{
+    text-align: center;
+}
+
+.tableau
+{
+    /* text-align: right; */
+    /* margin-left: 5%; */
+    width: 60%;
+    margin-left: 20%;
+}
+
+.tableau input {
+    width: 80px;
+}
+.sur-tableau{
+    text-align: center;
+    width: 90%;
+    /* margin-left: 5%; */
+}
+td {
+    width: 25%;
+    text-align: right;
+}
+
+td label{
+    padding-right: 5px;
+
+}
+
+.little
+{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.gros_title{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.principal-title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-top: 2%;
+    color: white;
+}
+
+.pad-top {
+    background: #FA521C;
+    height: 190px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.bas{
+    background: white;
+    width: 50%;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 14px 8px rgb(0 0 0 / 5%);
+    transform: translate(50%);
+}
+
+input {
+        /* display: block; */
+        /* width: 100%; */
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+input:focus{
+    outline: none;
+    border: solid 1px #3473c7;
+}
+
+.button-int{
+    background: #007bff;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.home_button{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    color: white;
+    text-decoration: none;
+}
+
+.home_button a {
+    text-decoration: none;
+    color: white;
+    transition: 200ms;
+}
+.home_button a:hover {
+    color: #005eeb;
+    transition: 200ms;
+}.form-select {
+    display: block;
+    width: 30%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e); */
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-left: 265px  
+}
+
+.select{
+margin-left:20px;
+
+}
+.follow_button:hover a::after {
+    content:"Suivre les paiements";
+    color: white;
+    text-transform: none;
+    position: absolute;
+    width: 200px;
+    font-size: 15px;
+    left: 22px;
+    top: 9px;
+    animation: animation2;
+    animation-duration: 500ms;
+    z-index: 0;
+   
+   
+}
+.follow_button {
+    position: absolute;
+    top: 8px;
+    left : 8px;
+    background: white;
+    font-size: 25px;
+    align-items: middle;
+    font-weight: 600;
+    color: #FA521C;
+    border-radius: 100px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    transition: 200ms;
+    text-align: center;
+    
+}
+.logout_button:hover a::after {
+    content:"Deconnexion";
+    color: white;
+    text-transform: none;
+    position: absolute;
+    width: 200px;
+    font-size: 15px;
+    right: 0px;
+    top: 9px;
+    animation: animation;
+    animation-duration: 500ms;
+    z-index: 0;
+   
+   
+}
+.logout_button {
+    position: absolute;
+    top: 8px;
+    right : 8px;
+    background: white;
+    font-size: 25px;
+    align-items: middle;
+    font-weight: 600;
+    color: #FA521C;
+    border-radius: 100px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    transition: 200ms;
+    text-align: center;
+    z-index: 100;
+    
+}
+
+.logout_button a {
+    color: #FA521C;
+}
+.logout_button a:hover {
+    color: #FA521C;
+}
+
+@keyframes animation {
+    0%{
+        transform: translate(200px, 0px);
+    }
+    100%{
+        transform: translate(-0px, -0px);
+    }
+}
+@keyframes animation2 {
+    0%{
+        transform: translate(-200px, 0px);
+    }
+    100%{
+        transform: translate(-0px, -0px);
+    }
+}
+
+.align-select{
+    display: inline-block;
+    margin-left: 0;
+    width: 200px;
+}
+
+.btn-compta{
+    background: #FA521C;
+    vertical-align: middle;
+    color: white;
+}
+
+.button-refuse{
+    font-family: 'Lato', sans-serif;
+    height: 38px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+    background: rgb(255, 110, 110);
+    color: white;
+}
+
+.tableview{
+    margin-left: -100px;
+}

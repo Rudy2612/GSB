@@ -1,0 +1,194 @@
+
+
+
+body 
+{
+    background-color: #33ACFF; color: black; 
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+} 
+
+.logo{
+
+    margin-left: 665px      ;
+}
+
+.titre
+{ 
+     width : 180 ;  text-align: center; 
+     font-family: 'Lato', sans-serif;
+     
+} 
+
+
+.zone 
+{ 
+     color:7091BB ;text-align: center;
+    font-family: 'Lato', sans-serif;
+} 
+
+.tout
+{
+    text-align: center;
+}
+
+.tableau
+{
+    text-align: center;
+    margin-left: 5%;
+}
+
+.tableau input {
+    width: 150px;
+}
+.sur-tableau{
+    text-align: center;
+    width: 90%;
+    /* margin-left: 5%; */
+}
+td {
+    width: 25%;
+    text-align: right;
+}
+
+td label{
+    padding-right: 5px;
+
+}
+
+.little
+{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.gros_title{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.principal-title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-top: 2%;
+    color: white;
+}
+
+.pad-top {
+    background: #3473c7;
+    height: 190px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.bas{
+    background: white;
+    width: 50%;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 14px 8px rgb(0 0 0 / 5%);
+    transform: translate(50%);
+}
+
+input {
+        /* display: block; */
+        /* width: 100%; */
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+input:focus{
+    outline: none;
+    border: solid 1px #3473c7;
+}
+
+.button-int{
+    background: #007bff;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.home_button{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    color: white;
+    text-decoration: none;
+}
+
+.home_button a {
+    text-decoration: none;
+    color: white;
+    transition: 200ms;
+}
+.home_button a:hover {
+    color: #005eeb;
+    transition: 200ms;
+}
+.logout_button:hover a::before {
+    content:"Deconnexion";
+    color: white;
+    text-transform: none;
+    position: absolute;
+    width: 200px;
+    right: 50%;
+    top: 5%;
+   
+   
+}
+.logout_button {
+    position: absolute;
+    top: 8px;
+    right : 8px;
+    background: white;
+    font-size: 25px;
+    align-items: center;
+    vertical-align: middle;
+    justify-items: center;
+    font-weight: 600;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    transition: 200ms;
+    text-align: center;
+}
+
+.error-saisie{
+    border: red 1px solid;
+}
+
+.error-code{
+    font-size: 12px;
+    color: red;
+    font-weight: 600;
+}
+
+
+.modal-valid{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    background: red;
+}
